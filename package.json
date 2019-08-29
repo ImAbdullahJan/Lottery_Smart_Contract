@@ -1,0 +1,30 @@
+{
+  "name": "ttb-sandbox",
+  "version": "0.1.0",
+  "description": "Playground to consume TitleToolBox web services for 3rd parties.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "serve-dev": "supervisor -w index.js index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/shahzadns/ttb-sandbox.git"
+  },
+  "keywords": [
+    "ttb",
+    "sandbox",
+    "doc"
+  ],
+  "author": "Benutech Inc.",
+  "license": "-",
+  "homepage": "https://bitbucket.org/shahzadns/ttb-sandbox#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.11.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
